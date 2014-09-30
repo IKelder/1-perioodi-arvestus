@@ -7,6 +7,8 @@
 
   $index_content = "<h2>Tere!</h2><p>Eesti Vabariik on riik Põhja-Euroopas. Eesti piirneb põhjas üle Soome lahe Soome Vabariigiga, läänes üle Läänemere Rootsi Kuningriigiga, lõunas Läti Vabariigiga ja idas Venemaa Föderatsiooniga. Eesti pindala on tänapäeval 45 227 ruutkilomeetrit, Teise maailmasõja eel oli see praegusest suurem.[5] Kaugemas ajaloos oli nüüdne Eesti Vabariigi territoorium üks osa Liivimaa territooriumist ning kuulus osaliselt või täielikult Taani, Rootsi, Saksa ja Vene riikide koosseisu.</p><p>Tänapäeval on Eesti demokraatlik parlamentaarne vabariik. Eesti Vabariigi territoorium on jagatud viieteistkümneks maakonnaks. Iga maakond on omakorda jagatud valdadeks. Suurim linn on pealinn Tallinn. 1,29 miljoni elanikuga on Eesti Euroopa Liidu üks väiksema elanikkonnaga riike. Eesti oli 22. septembrist 1921 Rahvasteliidu liige ning kuulub 17. septembrist 1991 Ühinenud Rahvaste Organisatsiooni ja OSCEsse, 13. novembrist 1999 WTOsse, 29. märtsist 2004 NATOsse, 1. maist 2004 Euroopa Liitu, 21. detsembrist 2007 Schengeni ruumi, 9. detsembrist 2010 OECDsse ja 1. jaanuarist 2011 euroalasse. Eesti rahaühik on euro. Eesti on alla kirjutanud keskkonnakaitsealasele Kyōto protokollile.</p>";
 
+  $lisaulesanne_txt = "<h2>Lorem Ipsum</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+
   $blog_news =
     array(
       array(

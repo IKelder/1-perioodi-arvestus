@@ -8,11 +8,12 @@
 <nav class="menu-main">
   <ul class="menu">
   <?php
-  $menu_main = array("Avaleht", "Uudised", "Meeskond", "Harjutused");
+  $menu_main = array("Avaleht", "Uudised", "Meeskond", "Harjutused", "Lisaulesanne");
   echo "<li><a href=index.php>" . $menu_main[0] . "</a></li>
   <li><a href=news.php>" . $menu_main[1] . "</a></li>
   <li><a href=team.php>" . $menu_main[2] . "</a></li>
-  <li><a href=exercises.php>" . $menu_main[3] . "</a></li>";
+  <li><a href=exercises.php>" . $menu_main[3] . "</a></li>
+  <li><a href=lisaulesanne.php>" . $menu_main[4] . "</a></li>";
   ?>
   </ul>
 </nav>
