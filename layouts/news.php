@@ -10,6 +10,22 @@
 
     <main id="site-body">
       <section id="site-content">
+         <?php
+          $blog_two = 0;
+            foreach($blog_news as $blog_post) {
+              if ($blog_two <= 1) {
+                echo '<article class="blog-post">';
+                  foreach($blog_post as $blog_tag => $blog_data) {
+                    if ($blog_tag == 'post-title') {
+                      echo '<h2 class="'.$blog_tag.'">'.$blog_data.'</h2>'; }
+                    else {echo '<div class="'.$blog_tag.'">'.$blog_data.'</div>';};
+                  };
+                echo '</article>';
+                $blog_two = $blog_two + 1;
+              };
+            };
+          ?>
+      <!--
         <article class="blog-post">
           <h2 class="post-title">Eesti Disainiauhindade pidulik gala tõi ohtralt auhindu ja moeka seltskonna</h2>
           <div class="post-excerpt">
@@ -43,7 +59,7 @@ Snooki teatas uudisest Twitteri vahendusel:</p>
           <div class="post-body">
             <p>«Hotellist lahkudes hakkas ta nutma ja me ei saanud teda maha jätta. See oli viimase hetke otsus,» põhjendas Kim, miks ta lapse üritusele kaasa võttis.</p>
           </div>
-        </article>
+        </article> -->
       </section>
     </main>
 
