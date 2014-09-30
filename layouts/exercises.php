@@ -26,7 +26,7 @@
         <!--  Sisesta siia kood -->
 
         <h2>Kõikide piltide väljastamine</h2>
-        <!--  Sisesta siia kood -->
+       <img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/1.jpg"<?php $random = rand(1,12); echo $random; ?> .png" alt="[ Random Image ]"/>
       </section>
     </main>
 
